@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("tetragrammaton.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("editor.fxml"));
         primaryStage.setTitle("Tetragrammaton Text Editor");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
